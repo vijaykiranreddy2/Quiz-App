@@ -1,0 +1,6 @@
+.correct {
+    background-color: rgb(8, 123, 64);
+}
+.wrong {
+    background-color: crimson;
+}

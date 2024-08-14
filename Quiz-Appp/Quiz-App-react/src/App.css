@@ -1,0 +1,62 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Menu,.Quiz,.End{
+  width:500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.Menu button, .Quiz button , .End button{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.Menu, .Quiz, .End {
+  padding: 20px;
+  color: white;
+}
+.options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Quiz .options .correct{
+  background-color: rgb(54, 184, 121);
+}
+.Quiz .options .wrong{
+  background-color: rgb(217, 56, 56);
+}
+.Game{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.End{
+  background-color: white;
+  color: black;
+}
+
+
